@@ -1,0 +1,136 @@
+.profile-section {
+    padding-left: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.share-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    padding-top: 7%;
+}
+
+.share-section svg {
+    margin-right: 20px;
+    width: 30px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 7%;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.main-section img {
+    max-width: 116px;
+    max-height: 116px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-name h1, p, button {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.profile-name button {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    width: 208px;
+    height: 36px;   
+    background-color: #EF2950;
+    border-color: transparent;
+    border-radius: 2px;
+}
+
+.profile-name button:hover {
+    background-color: rgb(204, 36, 67);
+}
+
+.profile-name h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.about-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.about-profile p, strong {
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.about-profile strong {
+    padding-right: 5px;
+}
+
+.description{
+    padding-left: 20px;
+}
+
+.link {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.link h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.head button {
+    border: none;
+    background-color: white;
+    width: 100px;
+    display: flex;
+}
+
+.head strong {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.content-section {
+    padding-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-card {
+    flex: 1 0 21%;
+}
+
+.content-card video {
+    max-width: 195px;
+    max-height: 298px;
+}

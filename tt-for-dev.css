@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: auto;
+    height: 70px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 1%;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 1%;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.links a:hover{
+    text-decoration: underline red;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F9FA;
+    width: auto;
+    height: 520px;
+}
+
+.info-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.info-block h1, p, button{
+    font-family: sans-serif;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.block button {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #EA284E;
+    border: none;
+    width: 130px;
+    height: 48px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.img-block {
+    flex:1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-block img {
+    flex: 1;
+    max-height: 364px;
+}
+
+.gif-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gif-block {
+    max-width: 636px;
+    max-height: 605px;
+    font-family: sans-serif;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.gif-block video{
+    width: 636px;
+    height: 358px;
+}
+
+.gif-block a {
+    text-decoration: none;
+    color:  #EA284E;
+}
+
+after-main {
+    text-align: center;
+}
+
+after-main {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+footer {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+}
+
+.footer-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footer-logo img {
+    max-width: 119px;
+    max-height: 42px;
+}
+
+.table {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}

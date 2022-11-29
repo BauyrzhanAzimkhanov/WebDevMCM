@@ -1,0 +1,296 @@
+body {
+    color: black;
+    margin: 0px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-about {
+    height: 4.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.1rem solid rgb(212,220,220);
+}
+.header-about-hamburger-menu {
+    margin-left: 2rem;
+    background-color: white;
+    border: 0px;
+    font-size: 2rem;
+    align-self: center;
+}
+.ticktok-logo-for-you-link {
+    padding-top: 0.3rem;
+    margin-left: 2rem;
+}
+.footer-about {
+    height: 10%;
+    color: white;
+    background-color: black;
+}
+.footer-about-downloads-container {
+    height: 10.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(212,220,220);
+}
+.downloads-heading {
+    font-weight: bold;
+    margin: 0px;
+    font-size: 1.5rem;
+}
+.footer-about-downloads-links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    height: 40%;
+}
+.footer-about-other-sections-links:link {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(204,204,204);
+    text-decoration: none;
+    height: 100%;
+}
+.footer-about-other-sections-links:visited {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(204,204,204);
+    text-decoration: none;
+    height: 100%;
+}
+.footer-about-other-sections-links:hover {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(204,204,204);
+    text-decoration: underline;
+    height: 100%;
+}
+.footer-about-other-sections-links:active {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(204,204,204);
+    text-decoration: underline;
+    height: 100%;
+}
+.footer-about-downloads-links-icon {
+    height: 2.5rem;
+}
+.tiktok-logo-about {
+    height: 2rem;
+}
+.main-content-holder-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content-holder-about {
+    display: flex;
+    flex-direction: row;
+}
+.main-content-holder-about-image-container {
+    flex-shrink: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main-content-holder-about-text-container {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 8%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.help-center-icons {
+    height: 3.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.main-content-holder-contact-section-headings {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 1.5rem;
+}
+.footer-about-other-container-main {
+    display: flex;
+    flex-direction: column;
+}
+.footer-about-other-sections-container {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-about-other-sections-links-container {
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-about-other-sections-link-tiktok-logo {
+    height: 2.2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.footer-about-other-sections-links-heading {
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+.footer-about-other-sections-links {
+    margin-bottom: 0.5rem;
+}
+.footer-about-other-language-copyright-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 7.25rem;
+    padding-right: 8.5rem;
+    margin-bottom: 1rem;
+}
+.footer-about-other-language-selector {
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(212,220,220);
+    border-radius: 3px;
+    width: 11rem;
+    height: 2.5rem;
+    padding-left: 0.8rem;
+    padding-right: 1.5rem;
+}
+.footer-about-other-copyright-text {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: rgb(138, 139, 145);
+}
+.main-content-holder-contact-links:link {
+    color: rgb(252,44,84);
+    text-decoration: none;    
+}
+.main-content-holder-contact-links:visited {
+    color: rgb(252,44,84);
+    text-decoration: none;    
+}
+.main-content-holder-contact-links:hover {
+    color: rgb(252,44,84);
+    text-decoration: underline;    
+}
+.main-content-holder-contact-links:active {
+    color: rgb(252,44,84);
+    text-decoration: underline;    
+}
+#main-content-holder-contact-heading {
+    font-weight: lighter;
+    margin-top: 4.5rem;
+    font-size: 4rem;
+}
+#main-content-holder-contact-help-container {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0.1rem rgb(202, 220, 226);
+    display: flex;
+    flex-direction: column;
+    width: 57.5rem;
+    margin-bottom: 6rem;
+}
+#main-content-holder-contact-help-visit-conatiner {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(212,220,220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#visit-help-center-heading {
+    margin: 0px;
+    font-size: 2rem;
+}
+#main-content-holder-contact-help-partners-media-conatiner {
+    height: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(212,220,220);
+    align-items: center;
+    justify-content: flex-start;
+}
+#info-for-partners-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#info-for-partners-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#info-for-media-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#info-for-media-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#main-content-holder-contact-help-legal-privacy-conatiner {
+    height: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(212,220,220);
+    align-items: center;
+    justify-content: flex-start;
+}
+#legal-info-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#legal-info-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#privacy-info-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#privacy-info-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#main-content-holder-about-image {
+    width: 100%;
+}
+#main-content-holder-about-text-heading {
+    margin: 0rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 75%;
+}
+#main-content-holder-about-text-bigger {
+    color: rgb(79,83,90);
+    font-size: 1.5rem;
+    width: 75%;
+}
+#main-content-holder-about-text-smaller {
+    color: rgb(79,83,90);
+    font-size: 1rem;
+    width: 75%;
+}
