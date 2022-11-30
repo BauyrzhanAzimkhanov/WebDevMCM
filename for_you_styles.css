@@ -143,6 +143,9 @@ body {
     height: 2rem;
 }
 .aside {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     margin-left: 13rem;
     width: 18.5rem;
     grid-area: aside;
@@ -424,3 +427,4 @@ body {
     border-radius: 1.5rem;
     border: 0px solid white;
 }
+
