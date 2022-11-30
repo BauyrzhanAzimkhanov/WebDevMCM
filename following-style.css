@@ -174,7 +174,7 @@ main {
   width: 67%;
 }
 
-.login > p {
+.login > h1 {
   color: rgba(22, 24, 35, 0.5);
   font-size: 1rem;
   line-height: 25px;
@@ -342,11 +342,11 @@ main {
 @media only screen 
   and (max-width : 1600px) 
   and (max-height : 2560px) {
-  .left {
+  /* .left {
     position: sticky;
     top: 0;
     z-index: 1;
-  }
+  } */
 
   .btns {
     position: relative;
