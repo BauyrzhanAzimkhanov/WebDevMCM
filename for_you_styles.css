@@ -200,9 +200,7 @@ body {
     color: rgb(254,44,85);
     height: 3rem;
 }
-.category-selector-image {
 
-}
 .category-selector-text {
     padding-left: 0.5rem;
 }
@@ -219,9 +217,7 @@ body {
     align-items: center;
     border-bottom: 1px solid rgb(226,227,228);
 }
-.account-log-in-description {
 
-}
 .account-log-in-button {
     height: 3rem;
     width: 100%;
@@ -410,8 +406,7 @@ body {
     align-items: flex-end;
     gap: 1rem;
 }
-.image-video-item {
-}
+
 .video-item {
     width: 20rem;
 }
