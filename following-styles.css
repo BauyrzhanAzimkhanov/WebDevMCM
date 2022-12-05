@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  header {
+    border-bottom: 1px solid rgb(200, 200, 200);
+  }
+  
+  main {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    overflow-y: scroll;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    height: 64px;
+    width: 1400px;
+  }
+  
+  .logo {
+    height: 140px;
+    width: 180px;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-input {
+    outline: none;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 48px;
+    width: 275px;
+    text-indent: 20px;
+    font-size: 15px;
+  }
+  
+  .search-btn {
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 48px;
+    height: 48px;
+    border: none;
+  }
+  
+  .search-btn:hover {
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+  }
+  
+  .search-btn::before {
+    content: "";
+    height: 70%;
+    width: 1px;
+    position: absolute;
+    right: 100%;
+    top: 15%;
+    background-color: rgb(200, 200, 200);
+  }
+  
+  .search-btn > i {
+    color: rgb(180, 180, 180);
+  }
+  
+  .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    margin-right: 64px;
+  }
+  
+  .upload-btn {
+    background-color: transparent;
+    height: 37px;
+    width: 96px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid rgb(230, 230, 230);
+  }
+  
+  .upload-btn:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .upload-btn > i {
+    padding-right: 10px;
+  }
+  
+  .login-btn {
+    height: 37px;
+    width: 96px;
+    color: #fff;
+    background-color: rgb(254, 44, 85);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .login-btn:hover {
+    background-color: rgb(233, 37, 76);
+    cursor: pointer;
+  }
+  
+  .drop-down:hover {
+    cursor: pointer;
+  }
+  
+  .btns {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 23.7rem;
+    width: 67%;
+  }
+  
+  .btns > a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(22, 24, 35);
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+  }
+  
+  .btns > a:hover {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .btns > a:nth-child(2) {
+    color: rgb(254, 44, 85);
+  }
+  
+  .btns > a > i {
+    margin-right: 1rem;
+  }
+  
+  .login {
+    margin-top: 1rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 1rem;
+    margin-left: 23.7rem;
+    width: 67%;
+  }
+  
+  .login > h1 {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1rem;
+    line-height: 25px;
+    width: 120%;
+  }
+  
+  .login > button {
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 1px solid rgb(254, 44, 85);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(254, 44, 85);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 3rem;
+    width: 100%;
+  }
+  
+  .login > button:hover {
+    background-color: rgba(245, 44, 86, 0.05);
+  }
+  
+  .links {
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 23.7rem;
+    width: 60%;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linkgroup1 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  
+  .linkgroup1 > a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+  }
+  
+  .linkgroup1 > a:hover {
+    text-decoration: underline;
+  }
+  
+  .linkgroup2 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  
+  .linkgroup2 > a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+  }
+  
+  .linkgroup2 > a:hover {
+    text-decoration: underline;
+  }
+  
+  .linkgroup3 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  
+  .linkgroup3 > a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+  }
+  
+  .linkgroup3 > a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: rgb(150, 150, 150);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(22,24,35,0.06);
+  }
+  
+  .left {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .right {
+    margin-right: 160px;
+    margin-left: 300px;
+    
+  }
+  
+  .user-img {
+    border-radius: 10px;
+  }
+  
+  .user-ava {
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+  }
+  
+  .user {
+    display: inline-flex;
+    position: relative;
+    margin: 7px;
+    top: 40px;
+  }
+  
+  .user > h4 {
+    position: absolute;
+    top: 185px;
+    left: 60px;
+    color: #fff;
+  }
+  
+  .user > h5 {
+    position: absolute;
+    top: 210px;
+    left: 70px;
+    color: #fff;
+  }
+  
+  .follow-btn {
+    height: 37px;
+    width: 160px;
+    color: #fff;
+    background-color: rgb(254, 44, 85);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 240px;
+    right: 33px;
+  }
+  
+  .follow-btn:hover {
+    background-color: rgb(233, 37, 76);
+    cursor: pointer;
+  }
+  
+  
+  @media only screen 
+    and (max-width : 1600px) 
+    and (max-height : 2560px) {
+    /* .left {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    } */
+  
+    .btns {
+      position: relative;
+      right: 240px;
+    }
+  
+    .links {
+      position: relative;
+      bottom: 250px;
+    }
+  
+    .login {
+      border-bottom: none;
+      position: relative;
+      right: 240px;
+    }
+  
+    .links {
+      border-top: 1px solid rgb(200, 200, 200);
+      width: 67%;
+      position: relative;
+      right: 240px;
+    }
+  
+    .linkgroup1 {
+      padding-top: 20px;
+    }
+  
+    .right {
+      margin-left: 50px;
+    }
+      
+      
+    
+  }
+  
+   /* The Modal (background) */
+   .loginModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .loginModal-container {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 35%; /* Could be more or less, depending on screen size */
+  }
+  .loginModal-container-authorization-header {
+    font-size: larger;
+    font-weight: bold;
+    width: 100%;
+  }
+  .input-control {
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #form {
+    text-align: center;
+  }
+  #form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: 1px solid #888;
+    border-radius: 4px;
+    /* font-size: larger; */
+    font-weight: bold;
+}
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
