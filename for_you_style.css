@@ -1,0 +1,430 @@
+body {
+    color: black;
+    margin: 0px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-page {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main-content-holder main-content-holder";
+}
+.header {
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1rem solid rgb(212,220,220);
+    grid-area: header;
+    margin-bottom: 1.5rem;
+}
+.tiktok-logo-container-header {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;    
+    padding-right: 2rem;
+    padding-left: 8.2rem;
+}
+.ticktok-logo-for-you-link {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tiktok-logo {
+    height: 50%;
+}
+.searchbar-container-header {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar-form {
+    width: 22.5rem;
+    background-color: rgb(241,241,242);
+    border-radius: 1.65rem;
+    height: 77.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchbar-text-input {
+    background-color: rgb(241,241,242);
+    color: rgb(122,123,129);
+    border: 0px;
+    width: 60.5%;
+    height: 72.5%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+.searchbar-saparator {
+    height: 70.5%;
+    width: 0x;
+    padding-left: 0.5rem;
+    border-right: 1px solid rgb(213,214,216);
+}
+.searchbar-div-submit-input {
+    margin: 0px;
+    background-color: rgb(241,241,242);
+    color: rgb(122,123,129);
+    border: 0px;
+    height: 72.5%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+.div-submit-input-icon {
+    height: 80%;
+}
+.upload-account-other-container-header {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-right: 6rem;
+}
+.upload-button {
+    height: 60%;
+    width: 6.75rem;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid rgb(226,227,228);
+}
+.upload-button:hover {
+    height: 60%;
+    width: 6.75rem;
+    background-color: rgb(241,241,242);
+    color: black;
+    border-radius: 3px;
+    border: 1px solid rgb(226,227,228);
+}
+.account-control-button {
+    height: 60%;
+    width: 6.75rem;
+    background-color: rgb(254,44,85);
+    color: white;
+    border-radius: 3px;
+    border: 0px solid white;
+}
+.account-control-button:hover {
+    height: 60%;
+    width: 6.75rem;
+    background-color: rgb(239,41,80);
+    color: white;
+    border-radius: 3px;
+    border: 0px solid white;
+}
+.other-functions-button {
+    height: 60%;
+    width: 1.75rem;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.suggested-account-verification-mark {
+    height: 2rem;
+}
+.video-item-user-verification-mark {
+    height: 2rem;
+}
+.aside {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-left: 13rem;
+    width: 18.5rem;
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.main-content-holder {
+    width: 42.5rem;
+    grid-area: main-content-holder;
+    /* border: 1px solid black; */
+}
+.main-categories-selector-buttons-container-aside {
+    gap: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(226,227,228);
+}
+.category-selector-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 3rem;
+}
+.category-selector-container:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(248,248,248);
+    color: black;
+    height: 3rem;
+}
+.category-selector-container-selected {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: rgb(254,44,85);
+    height: 3rem;
+}
+.category-selector-container-selected:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(248,248,248);
+    color: rgb(254,44,85);
+    height: 3rem;
+}
+
+.category-selector-text {
+    padding-left: 0.5rem;
+}
+
+.category-selector-text a {
+    text-decoration: none;
+    color: black;
+}
+.account-log-in-container-aside {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(226,227,228);
+}
+
+.account-log-in-button {
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(254,44,85);
+    color: rgb(254,44,85);
+}
+.account-log-in-button:hover {
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(255,243,245);
+    border-radius: 0.3rem;
+    border: 1px solid rgb(254,44,85);
+    color: rgb(254,44,85);
+}
+.suggested-accounts-container-aside {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(226,227,228);
+}
+.suggested-accounts-heading-text {
+    color: rgb(80,82,90);
+}
+.suggested-accounts-account-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggested-accounts-account-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggested-accounts-account-image {
+    height: 2.1rem;
+    width: 2.1rem;
+    border-radius: 1.05rem;
+}
+.suggested-accounts-name-container {
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.suggested-account-verification-mark {
+    margin-left: 0.2rem;
+    height: 0.9rem;
+    align-self: flex-start;
+}
+.suggested-accounts-see-all-text {
+    color: rgb(239,41,80);
+}
+.tiktok-info-container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.tiktok-info-about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.tiktok-info-link {
+    margin-right: 0.7rem;
+    color: rgb(138,139,145);
+    text-decoration: none;
+}
+.tiktok-info-copyright-text {
+    color: rgb(138,139,145);
+}
+.main-content-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50rem;
+}
+.main-content-video-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(226,227,228);
+}
+.video-item-user-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 90%;
+    width: 4rem;
+}
+.video-item-user-logo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+}
+.video-item-main-container {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 40rem;
+}
+.video-item-user-description-follow-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.video-item-user-description-container {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+}
+.video-item-user-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.video-item-user-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 0.1rem;
+}
+.video-item-user-name {
+    margin: 0px;
+    
+}
+.video-item-user-verification-mark {
+    align-self: center;
+    height: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+.video-item-user-description {
+    margin: 0px;
+}
+.video-item-name {
+    margin: 0px;
+}
+.video-item-user-follow-button {
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(254,44,85);
+    color: rgb(254,44,85);
+    background-color: white;
+    align-self: center;
+    height: 2rem;
+    width: 6em;
+    flex-shrink: 0;
+}
+.video-item-user-follow-button:hover {
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(254,44,85);
+    color: rgb(254,44,85);
+    background-color: rgb(255,243,245);
+    align-self: center;
+    height: 2rem;
+    width: 6em;
+    flex-shrink: 0;
+}
+.video-item-video-share-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.video-item {
+    width: 20rem;
+}
+.video-item-like-comment-share-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    text-decoration: none;
+}
+.video-item-like-button, .video-item-comment-button, .video-item-share-button {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1.5rem;
+    border: 0px solid white;
+    text-decoration: none;
+  
+}
+

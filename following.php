@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TikTok</title>
+    <title>Following - Watch videos from creators you follow | TikTok </title>
+    <link rel="icon" href="https://seeklogo.com/images/T/tiktok-app-icon-logo-0F5AD7AE01-seeklogo.com.png">
     <script src="https://kit.fontawesome.com/44bb0c178e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="following-style.css">
 </head>
@@ -25,7 +26,6 @@
           $result = mysqli_query($conn, $sql);
 
           if (mysqli_num_rows($result) > 0) {
-              // output data of each row
               while($row = mysqli_fetch_assoc($result)) {
                 if ($row['username'] == 'kagiristwins') {
                   echo '<a href="https://www.tiktok.com/@kagiristwins?lang=en">'.$row['firstName']." ".$row['lastName'].'</a>'; 
@@ -47,14 +47,17 @@
         }
         mysqli_close($conn);
         ?>
-        <form action="following.php" method="post">
+        <form action="following.php" method="post" autocomplete="off">
         <div class="search-bar">
-          <input type="text" class="search-input" placeholder="Search accounts and videos" name="search" />
+          <input type="text" id="search-input" placeholder="Search accounts and videos" name="search" />
           <button class="search-btn" name="submit">
             <i class="fas fa-search"></i>
           </button>
         </div>
         </form>
+
+        <script src="following-script.js"></script>
+
         <div class="nav-right">
           <button class="upload-btn">
             <i class="far fa-plus"></i>Upload

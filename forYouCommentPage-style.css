@@ -1,0 +1,334 @@
+body {
+    box-sizing: border-box;
+    color: rgb(22, 24, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    overflow-y: hidden;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+}
+
+.header-container {
+    align-items: center;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    height: 60px;
+    justify-content: space-around;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(28, 27, 27);  
+    position: fixed;
+    z-index: 1000;
+}
+
+.header-wrapper-main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 24px;
+    width: 1150px;
+}
+
+.tt-link-logo {
+    cursor: pointer;
+    font-size: 0px;
+    line-height: 0px;
+    position: relative;
+    text-decoration: none;
+}
+
+.tt-logo {
+    position: relative;
+    left: 20px;
+}
+
+.report-btn {
+    color: white;
+    position: absolute;
+    left: 750px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgb(62, 59, 59);
+    width: 96px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.report-btn:hover {
+    background-color: rgb(40, 40, 40);
+}
+.header-center-container {
+    position: relative;
+}
+
+.body-container {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    direction: ltr;
+    height: 100vh;
+}
+
+.video-container {
+    max-width: 100%;
+    position: relative;
+    width: 896px;
+    height: 110%;
+    background-color: rgb(28, 27, 27);  
+}
+
+.video-wrapper {
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    direction: ltr;
+    
+}
+
+.video-wrapper-container {
+    align-items: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    width: 896px;
+}
+
+.video-image {
+    max-width: 100%;
+}
+
+.player-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.video-item {
+   width: 70%;
+   height: 100%;
+}
+
+.video-edit-link > i {
+    color: white;
+    position: absolute;
+    margin-left: 365px;
+    margin-top: 300px;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 50px;
+    border-color: white;
+    background-color: rgb(62, 59, 59);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.video-wrapper-container > i:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.video-wrapper-container > img {
+    color: white;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 1250px;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 50px;
+    border-color: white;
+    background-color: rgb(62, 59, 59);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.video-wrapper-container > img:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: 544px;
+    background-color: white;
+    position: relative;
+    bottom: 50px;
+}
+
+.info-container {
+    align-items: center;
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.club-logo {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.club-name {
+    margin-top: 140px;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.club-name:hover {
+    text-decoration: underline;
+}
+
+.follow-btn {
+    margin-top: 140px;
+    margin-left: 200px;
+    background-color: transparent;
+    border: 1px solid rgb(254, 44, 85);
+    font-size: 16px;
+    color: rgb(254, 44, 85);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 36px;
+    width: 106px;
+  }
+  
+.follow-btn:hover {
+    background-color: rgba(245, 44, 86, 0.05);
+}
+
+.text-info {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.user-acc > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.user-acc:hover {
+    text-decoration: underline;
+}
+
+.like-comments {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 14px;
+    color: rgba(22, 24, 35, 0.75);
+}
+
+.like, .comment {
+   position: relative;
+   top: 10px;
+}
+
+.like-btn {
+    border: none;
+    background-color: transparent;
+}
+
+#icon {
+    border-radius: 50%;
+    border-style: solid;
+    padding: 7px;
+}
+
+.wrapper {
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-right: 50px;
+}
+
+.wrapper .form input {
+	background-color: rgb(22, 24, 35);
+	color: white;
+	font-size: 15px;
+	width: 300px;
+	border-radius: 20px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.wrapper .form textarea {
+	background-color: rgb(22, 24, 35);
+	color: white;
+	font-size: 15px;
+	width: 300px;
+    height: 20px;
+	border-radius: 20px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+.wrapper .form .btn {
+	background-color: rgb(22, 24, 35);
+	color: white;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px;
+	width: 200px;
+	border-radius: 20px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	opacity: 0.8;
+	transition: 0.3s all ease;
+}
+
+.wrapper .form .btn:hover {
+	opacity: 1;
+}
+
+.content {
+	text-align: center;
+	background-color:rgb(22, 24, 35);
+	color: white;
+	padding: 10px;
+	width: 524px;
+    height: 170px;
+    overflow-y: scroll;
+	border: none;
+    position: relative;
+    right: 50px;
+}
+
+.content h3 {
+	color: white;
+    border: none;
+    background-color: rgb(254, 44, 85);
+    width: 100%;
+}
+
+
